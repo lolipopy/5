@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+	<bean id="boss" class="model.Boss">
+		<property name="office" ref="model.Office" />
+		<property name="car" ref="model.Car" />
+	</bean>
+	<bean id="office" class="model.Office">
+		<property name="officeNo" value="001" />
+	</bean>
+	<bean id="car" class="model.Car">
+		<property name="brand" value="Mercedes-Benz" />
+	</bean>
+</beans>
